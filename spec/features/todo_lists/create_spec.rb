@@ -52,7 +52,7 @@ discribe "Creating todo lists" do
 
 	end
 
-	it "displays an error when the todo list has a discription" do
+	it "displays an error when the todo list has no discription" do
 		expect(TodoList.count).to eq(0)
 
 		visit "/todo_lists"
