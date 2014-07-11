@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 ENV['NOKOGIRI_USE_SYSTEM_LIBRARIES'] = 'YES'
 gem 'nokogiri', '1.6.0'
 
+gem 'rb-readline', '~> 0.5.1'
+
 gem 'rails', '4.1.1'
 gem 'sqlite3'
 gem 'sass-rails', '~> 4.0.3'
