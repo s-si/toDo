@@ -1,4 +1,4 @@
-equire 'spec_helper'
+require 'spec_helper'
 
 discribe "Editting todo lists" do
 	let!(:todo_list) {TodoList.create(title: "Grocery list", description: "Groceries")}
